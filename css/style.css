@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    
+}
+body{
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+/* Navbar Section */
+.nav-link{
+    color: black !important;
+    border-radius: 5px !important;
+    font-family:'Poppins', sans-serif !important;
+    
+    
+}
+.nav-link:hover{
+    color: #fff !important;
+    transition: 0.5s ease !important;
+    background: rgb(53, 63, 66) !important;
+   
+   
+}
+.navbar-sec{
+    background-color: #fdfdfe;
+}
+ .btn-header{
+    text-decoration: none;
+    color: white;
+    background-color: #2500f9;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    
+}
+.btn{
+    background-color: #2500f9;
+    color: white;
+    border-radius: 17px;
+   
+    border:none;
+    
+}
+.btn:hover{
+    background-color: tomato;
+    border:none;
+}
+/* Header Section */
+
+.header{
+    margin: 0px 0 50px 0;
+    font-family:'Poppins', sans-serif;   
+}
+
+.mobile-desg{
+    height: 500px;
+    width: 300px;
+}
+.heading-desg{
+    margin: 150px 0 150px 0;
+}
+.heading-desg h1{ 
+    font-size: 60px;  
+    font-weight:700;
+}
+.heading-desg p{
+    font-size: 18px;
+}
+
+.btn-desg{
+    background-color: #2500f9;
+    color: white;
+    border-radius: 17px;
+    transition: 1s ease;
+    padding: .375rem .75rem;
+}
+.btn-desg:hover{
+    background-color: tomato;
+    color: white;
+    transition: 1s ease;
+    line-height: 1.5;  
+}
+/*  Trusted Company */
+.tc-desg{
+   /* height: 100px; */
+   width: 130px;
+   padding: 0 20px 0 20px;
+}
+/* App Feature */
+
+.mobiletwo-desg{
+    height: auto;
+    width:100%;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.icon{
+    width: 100%;
+}
+.wid{
+    width: 50%;
+}
+/* Ultimate Feature  */
+.btn-seeall{
+    color: white;
+    padding: 10px 35px ;
+    background-color: #2500f9;
+    border: none;
+    border-radius: 18px;
+    text-decoration: none;
+}
+.btn-seeall:hover{
+    background-color: tomato;
+    border:none;
+    color: white;
+}
+/* Subscription */
+.one{
+    background-color: rgb(230, 223, 223);
+}

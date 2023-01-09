@@ -1,0 +1,118 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .width p{
+        
+        width: 80%;
+    }
+    .p-width{
+        width: 75%;
+    }
+    
+   
+ }
+
+/* /* /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .width {
+        
+        width:100%;
+    }
+ 
+    .p-width{
+        width: 100%;
+    }
+    .icon{
+        width: 50%;
+       
+        text-align: right;
+    }
+    .jackpot{
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    
+    .line{
+        border-left: 1px solid black;
+        height: 130px;
+        position: absolute;
+        left: 50%;
+        margin-left: 3px;
+        top: 0;
+        
+    }
+    .jackpot h2{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .jackpot p{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .mobiletwo-desg{
+        height: 700px;
+        width: 80%;
+       
+    }
+    .sub-title{
+        width: 100%;
+    }
+    
+ } 
+
+ /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+    .icon{
+        width: 70%;
+       margin-left: 30px;
+        text-align: right;
+        
+    }
+    .jackpot{
+        position: relative;
+        margin-bottom: 60px;
+    }
+    .mobiletwo-desg{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .line{
+        border-left: 1px solid black;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: 3px;
+        top: 0;
+        
+    }
+    .jackpot h2{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .jackpot p{
+        width: 75%;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    
+    .titleAnd-para h2{
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .titleAnd-para p{
+        margin: 0 auto;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 60px;
+    }
+    .sub-title{
+        width: 50%;
+    }
+ }
+
